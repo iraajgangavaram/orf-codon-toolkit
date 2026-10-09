@@ -4,11 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "orf-codon-toolkit"
-version = "0.1.0"
-description = "ORF finding, codon usage (RSCU) and GC skew for prokaryotic sequences"
+version = "0.2.0"
+description = "ORF finding, codon usage (RSCU) and GC skew for prokaryotic sequences, validated on simulated sequences"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+figures = ["matplotlib"]
 
 [project.scripts]
 orfkit = "orfkit.cli:main"

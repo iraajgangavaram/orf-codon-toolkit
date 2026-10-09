@@ -1,0 +1,8 @@
+{
+  "planted_genes_total": {
+    "genes": 1000,
+    "exact": 764,
+    "stop_correct_start_upstream": 236,
+    "missed": 0
+  }
+}
